@@ -36,9 +36,10 @@ background: #09c519 url('../img/grass1.jpg');
 
 #logo{
     
+    color:#FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 #menu{
-    margin-top:10px;
     float:right;
 }
 #menu ul{
