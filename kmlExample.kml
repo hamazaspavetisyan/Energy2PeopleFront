@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Style id="examplePolyStyle0">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle1">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle2">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle3">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle4">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle5">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle6">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle7">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle8">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle9">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle10">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle11">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle12">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle13">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle14">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle15">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle16">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle17">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle18">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle19">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle20">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle21">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle22">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle23">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle24">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle25">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle26">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle27">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle28">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle29">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle30">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle31">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle32">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle33">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle34">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle35">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle36">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle37">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle38">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle39">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle40">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle41">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle42">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle43">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle44">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle45">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle46">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle47">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle48">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle49">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle50">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle51">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle52">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle53">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle54">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Style id="examplePolyStyle55">
+            <PolyStyle>
+                <color>cc2df2d6</color>
+            </PolyStyle>
+        </Style>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle0</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.9000000953674316,37.599998474121094,1136.692868588377 -4.099999904632568,37.599998474121094,1136.692868588377 -4.099999904632568,37.400001525878906,1136.692868588377 -3.9000000953674316,37.400001525878906,1136.692868588377 -3.9000000953674316,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle1</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.9000000953674316,37.69999694824219,1136.692868588377 -4.099999904632568,37.69999694824219,1136.692868588377 -4.099999904632568,37.5,1136.692868588377 -3.9000000953674316,37.5,1136.692868588377 -3.9000000953674316,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle2</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.9000000953674316,37.79999923706055,1136.692868588377 -4.099999904632568,37.79999923706055,1136.692868588377 -4.099999904632568,37.60000228881836,1136.692868588377 -3.9000000953674316,37.60000228881836,1136.692868588377 -3.9000000953674316,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle3</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.9000000953674316,37.89999771118164,1136.692868588377 -4.099999904632568,37.89999771118164,1136.692868588377 -4.099999904632568,37.70000076293945,1136.692868588377 -3.9000000953674316,37.70000076293945,1136.692868588377 -3.9000000953674316,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle4</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.8000001907348633,37.599998474121094,1136.692868588377 -4.0,37.599998474121094,1136.692868588377 -4.0,37.400001525878906,1136.692868588377 -3.8000001907348633,37.400001525878906,1136.692868588377 -3.8000001907348633,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle5</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.8000001907348633,37.69999694824219,1136.692868588377 -4.0,37.69999694824219,1136.692868588377 -4.0,37.5,1136.692868588377 -3.8000001907348633,37.5,1136.692868588377 -3.8000001907348633,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle6</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.8000001907348633,37.79999923706055,1136.692868588377 -4.0,37.79999923706055,1136.692868588377 -4.0,37.60000228881836,1136.692868588377 -3.8000001907348633,37.60000228881836,1136.692868588377 -3.8000001907348633,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle7</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.8000001907348633,37.89999771118164,1136.692868588377 -4.0,37.89999771118164,1136.692868588377 -4.0,37.70000076293945,1136.692868588377 -3.8000001907348633,37.70000076293945,1136.692868588377 -3.8000001907348633,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle8</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.700000047683716,37.599998474121094,1136.692868588377 -3.8999998569488525,37.599998474121094,1136.692868588377 -3.8999998569488525,37.400001525878906,1136.692868588377 -3.700000047683716,37.400001525878906,1136.692868588377 -3.700000047683716,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle9</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.700000047683716,37.69999694824219,1136.692868588377 -3.8999998569488525,37.69999694824219,1136.692868588377 -3.8999998569488525,37.5,1136.692868588377 -3.700000047683716,37.5,1136.692868588377 -3.700000047683716,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle10</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.700000047683716,37.79999923706055,1136.692868588377 -3.8999998569488525,37.79999923706055,1136.692868588377 -3.8999998569488525,37.60000228881836,1136.692868588377 -3.700000047683716,37.60000228881836,1136.692868588377 -3.700000047683716,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle11</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.700000047683716,37.89999771118164,1136.692868588377 -3.8999998569488525,37.89999771118164,1136.692868588377 -3.8999998569488525,37.70000076293945,1136.692868588377 -3.700000047683716,37.70000076293945,1136.692868588377 -3.700000047683716,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle12</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.6000001430511475,37.599998474121094,1136.692868588377 -3.799999952316284,37.599998474121094,1136.692868588377 -3.799999952316284,37.400001525878906,1136.692868588377 -3.6000001430511475,37.400001525878906,1136.692868588377 -3.6000001430511475,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle13</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.6000001430511475,37.69999694824219,1136.692868588377 -3.799999952316284,37.69999694824219,1136.692868588377 -3.799999952316284,37.5,1136.692868588377 -3.6000001430511475,37.5,1136.692868588377 -3.6000001430511475,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle14</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.6000001430511475,37.79999923706055,1136.692868588377 -3.799999952316284,37.79999923706055,1136.692868588377 -3.799999952316284,37.60000228881836,1136.692868588377 -3.6000001430511475,37.60000228881836,1136.692868588377 -3.6000001430511475,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle15</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.6000001430511475,37.89999771118164,1136.692868588377 -3.799999952316284,37.89999771118164,1136.692868588377 -3.799999952316284,37.70000076293945,1136.692868588377 -3.6000001430511475,37.70000076293945,1136.692868588377 -3.6000001430511475,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle16</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.5,37.599998474121094,1136.692868588377 -3.6999998092651367,37.599998474121094,1136.692868588377 -3.6999998092651367,37.400001525878906,1136.692868588377 -3.5,37.400001525878906,1136.692868588377 -3.5,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle17</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.5,37.69999694824219,1136.692868588377 -3.6999998092651367,37.69999694824219,1136.692868588377 -3.6999998092651367,37.5,1136.692868588377 -3.5,37.5,1136.692868588377 -3.5,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle18</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.5,37.79999923706055,1136.692868588377 -3.6999998092651367,37.79999923706055,1136.692868588377 -3.6999998092651367,37.60000228881836,1136.692868588377 -3.5,37.60000228881836,1136.692868588377 -3.5,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle19</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.5,37.89999771118164,1136.692868588377 -3.6999998092651367,37.89999771118164,1136.692868588377 -3.6999998092651367,37.70000076293945,1136.692868588377 -3.5,37.70000076293945,1136.692868588377 -3.5,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle20</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.4000000953674316,37.599998474121094,1136.692868588377 -3.5999999046325684,37.599998474121094,1136.692868588377 -3.5999999046325684,37.400001525878906,1136.692868588377 -3.4000000953674316,37.400001525878906,1136.692868588377 -3.4000000953674316,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle21</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.4000000953674316,37.69999694824219,1136.692868588377 -3.5999999046325684,37.69999694824219,1136.692868588377 -3.5999999046325684,37.5,1136.692868588377 -3.4000000953674316,37.5,1136.692868588377 -3.4000000953674316,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle22</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.4000000953674316,37.79999923706055,1136.692868588377 -3.5999999046325684,37.79999923706055,1136.692868588377 -3.5999999046325684,37.60000228881836,1136.692868588377 -3.4000000953674316,37.60000228881836,1136.692868588377 -3.4000000953674316,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle23</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.4000000953674316,37.89999771118164,1136.692868588377 -3.5999999046325684,37.89999771118164,1136.692868588377 -3.5999999046325684,37.70000076293945,1136.692868588377 -3.4000000953674316,37.70000076293945,1136.692868588377 -3.4000000953674316,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle24</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.3000001907348633,37.599998474121094,1136.692868588377 -3.5,37.599998474121094,1136.692868588377 -3.5,37.400001525878906,1136.692868588377 -3.3000001907348633,37.400001525878906,1136.692868588377 -3.3000001907348633,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle25</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.3000001907348633,37.69999694824219,1136.692868588377 -3.5,37.69999694824219,1136.692868588377 -3.5,37.5,1136.692868588377 -3.3000001907348633,37.5,1136.692868588377 -3.3000001907348633,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle26</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.3000001907348633,37.79999923706055,1136.692868588377 -3.5,37.79999923706055,1136.692868588377 -3.5,37.60000228881836,1136.692868588377 -3.3000001907348633,37.60000228881836,1136.692868588377 -3.3000001907348633,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle27</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.3000001907348633,37.89999771118164,1136.692868588377 -3.5,37.89999771118164,1136.692868588377 -3.5,37.70000076293945,1136.692868588377 -3.3000001907348633,37.70000076293945,1136.692868588377 -3.3000001907348633,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle28</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.200000047683716,37.599998474121094,1136.692868588377 -3.3999998569488525,37.599998474121094,1136.692868588377 -3.3999998569488525,37.400001525878906,1136.692868588377 -3.200000047683716,37.400001525878906,1136.692868588377 -3.200000047683716,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle29</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.200000047683716,37.69999694824219,1136.692868588377 -3.3999998569488525,37.69999694824219,1136.692868588377 -3.3999998569488525,37.5,1136.692868588377 -3.200000047683716,37.5,1136.692868588377 -3.200000047683716,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle30</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.200000047683716,37.79999923706055,1136.692868588377 -3.3999998569488525,37.79999923706055,1136.692868588377 -3.3999998569488525,37.60000228881836,1136.692868588377 -3.200000047683716,37.60000228881836,1136.692868588377 -3.200000047683716,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle31</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.200000047683716,37.89999771118164,1136.692868588377 -3.3999998569488525,37.89999771118164,1136.692868588377 -3.3999998569488525,37.70000076293945,1136.692868588377 -3.200000047683716,37.70000076293945,1136.692868588377 -3.200000047683716,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle32</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.1000001430511475,37.599998474121094,1136.692868588377 -3.299999952316284,37.599998474121094,1136.692868588377 -3.299999952316284,37.400001525878906,1136.692868588377 -3.1000001430511475,37.400001525878906,1136.692868588377 -3.1000001430511475,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle33</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.1000001430511475,37.69999694824219,1136.692868588377 -3.299999952316284,37.69999694824219,1136.692868588377 -3.299999952316284,37.5,1136.692868588377 -3.1000001430511475,37.5,1136.692868588377 -3.1000001430511475,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle34</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.1000001430511475,37.79999923706055,1136.692868588377 -3.299999952316284,37.79999923706055,1136.692868588377 -3.299999952316284,37.60000228881836,1136.692868588377 -3.1000001430511475,37.60000228881836,1136.692868588377 -3.1000001430511475,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle35</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.1000001430511475,37.89999771118164,1136.692868588377 -3.299999952316284,37.89999771118164,1136.692868588377 -3.299999952316284,37.70000076293945,1136.692868588377 -3.1000001430511475,37.70000076293945,1136.692868588377 -3.1000001430511475,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle36</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.0,37.599998474121094,1136.692868588377 -3.1999998092651367,37.599998474121094,1136.692868588377 -3.1999998092651367,37.400001525878906,1136.692868588377 -3.0,37.400001525878906,1136.692868588377 -3.0,37.599998474121094,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle37</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.0,37.69999694824219,1136.692868588377 -3.1999998092651367,37.69999694824219,1136.692868588377 -3.1999998092651367,37.5,1136.692868588377 -3.0,37.5,1136.692868588377 -3.0,37.69999694824219,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle38</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.0,37.79999923706055,1136.692868588377 -3.1999998092651367,37.79999923706055,1136.692868588377 -3.1999998092651367,37.60000228881836,1136.692868588377 -3.0,37.60000228881836,1136.692868588377 -3.0,37.79999923706055,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle39</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-3.0,37.89999771118164,1136.692868588377 -3.1999998092651367,37.89999771118164,1136.692868588377 -3.1999998092651367,37.70000076293945,1136.692868588377 -3.0,37.70000076293945,1136.692868588377 -3.0,37.89999771118164,1136.692868588377</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle40</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.9000000953674316,37.599998474121094,1082.3844470632066 -3.0999999046325684,37.599998474121094,1082.3844470632066 -3.0999999046325684,37.400001525878906,1082.3844470632066 -2.9000000953674316,37.400001525878906,1082.3844470632066 -2.9000000953674316,37.599998474121094,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle41</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.9000000953674316,37.69999694824219,1082.3844470632066 -3.0999999046325684,37.69999694824219,1082.3844470632066 -3.0999999046325684,37.5,1082.3844470632066 -2.9000000953674316,37.5,1082.3844470632066 -2.9000000953674316,37.69999694824219,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle42</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.9000000953674316,37.79999923706055,1082.3844470632066 -3.0999999046325684,37.79999923706055,1082.3844470632066 -3.0999999046325684,37.60000228881836,1082.3844470632066 -2.9000000953674316,37.60000228881836,1082.3844470632066 -2.9000000953674316,37.79999923706055,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle43</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.9000000953674316,37.89999771118164,1082.3844470632066 -3.0999999046325684,37.89999771118164,1082.3844470632066 -3.0999999046325684,37.70000076293945,1082.3844470632066 -2.9000000953674316,37.70000076293945,1082.3844470632066 -2.9000000953674316,37.89999771118164,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle44</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.8000001907348633,37.599998474121094,1082.3844470632066 -3.0,37.599998474121094,1082.3844470632066 -3.0,37.400001525878906,1082.3844470632066 -2.8000001907348633,37.400001525878906,1082.3844470632066 -2.8000001907348633,37.599998474121094,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle45</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.8000001907348633,37.69999694824219,1082.3844470632066 -3.0,37.69999694824219,1082.3844470632066 -3.0,37.5,1082.3844470632066 -2.8000001907348633,37.5,1082.3844470632066 -2.8000001907348633,37.69999694824219,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle46</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.8000001907348633,37.79999923706055,1082.3844470632066 -3.0,37.79999923706055,1082.3844470632066 -3.0,37.60000228881836,1082.3844470632066 -2.8000001907348633,37.60000228881836,1082.3844470632066 -2.8000001907348633,37.79999923706055,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle47</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.8000001907348633,37.89999771118164,1082.3844470632066 -3.0,37.89999771118164,1082.3844470632066 -3.0,37.70000076293945,1082.3844470632066 -2.8000001907348633,37.70000076293945,1082.3844470632066 -2.8000001907348633,37.89999771118164,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle48</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.700000047683716,37.599998474121094,1082.3844470632066 -2.8999998569488525,37.599998474121094,1082.3844470632066 -2.8999998569488525,37.400001525878906,1082.3844470632066 -2.700000047683716,37.400001525878906,1082.3844470632066 -2.700000047683716,37.599998474121094,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle49</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.700000047683716,37.69999694824219,1082.3844470632066 -2.8999998569488525,37.69999694824219,1082.3844470632066 -2.8999998569488525,37.5,1082.3844470632066 -2.700000047683716,37.5,1082.3844470632066 -2.700000047683716,37.69999694824219,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle50</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.700000047683716,37.79999923706055,1082.3844470632066 -2.8999998569488525,37.79999923706055,1082.3844470632066 -2.8999998569488525,37.60000228881836,1082.3844470632066 -2.700000047683716,37.60000228881836,1082.3844470632066 -2.700000047683716,37.79999923706055,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle51</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.700000047683716,37.89999771118164,1082.3844470632066 -2.8999998569488525,37.89999771118164,1082.3844470632066 -2.8999998569488525,37.70000076293945,1082.3844470632066 -2.700000047683716,37.70000076293945,1082.3844470632066 -2.700000047683716,37.89999771118164,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle52</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.5,37.599998474121094,1082.3844470632066 -2.6999998092651367,37.599998474121094,1082.3844470632066 -2.6999998092651367,37.400001525878906,1082.3844470632066 -2.5,37.400001525878906,1082.3844470632066 -2.5,37.599998474121094,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle53</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.5,37.69999694824219,1082.3844470632066 -2.6999998092651367,37.69999694824219,1082.3844470632066 -2.6999998092651367,37.5,1082.3844470632066 -2.5,37.5,1082.3844470632066 -2.5,37.69999694824219,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle54</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.5,37.79999923706055,1082.3844470632066 -2.6999998092651367,37.79999923706055,1082.3844470632066 -2.6999998092651367,37.60000228881836,1082.3844470632066 -2.5,37.60000228881836,1082.3844470632066 -2.5,37.79999923706055,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>hollow box</name>
+            <TimeSpan>
+                <begin>1991-12-31</begin>
+                <end>1991-12-31</end>
+            </TimeSpan>
+            <styleUrl>#examplePolyStyle55</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-2.5,37.89999771118164,1082.3844470632066 -2.6999998092651367,37.89999771118164,1082.3844470632066 -2.6999998092651367,37.70000076293945,1082.3844470632066 -2.5,37.70000076293945,1082.3844470632066 -2.5,37.89999771118164,1082.3844470632066</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
