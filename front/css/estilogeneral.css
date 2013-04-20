@@ -5,13 +5,14 @@
     -moz-border-radius: 10px 10px / 10px 10px;
     border-radius: 10px 10px / 10px 10px;
     font-size-adjust: inherit;
+    margin-top: 10px;
 }
 
 
 
 body{
 font-family: verdana, arial;
-background-color: #33CCFF;
+background: #09c519 url('../img/grass1.jpg');
     padding: 5px;
     -moz-border-radius: 10px 10px / 10px 10px;
     border-radius: 10px 10px / 10px 10px;
