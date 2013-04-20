@@ -130,7 +130,26 @@ text-shadow: 0.1em 0.1em 0.05em #333;
 #accordion{
     margin-bottom: 25px;
 }
+/**Scroll bar **/
 
+::-webkit-scrollbar {
+margin-right: 5px;
+background-color: #ddd;
+width: 10px;
+}
+::-webkit-scrollbar-thumb {
+border: 1px #eee solid;
+border-radius: 4px;
+background: #777;
+-webkit-box-shadow: 0 0 8px #555 inset;
+box-shadow: 0 0 8px #555 inset;
+-webkit-transition: all .3s ease-out;
+transition: all .3s ease-out;
+}
+::-webkit-scrollbar-track {
+-webkit-box-shadow: 0 0 2px #ccc;
+box-shadow: 0 0 2px #ccc;
+}
 /** FAQ PAGE **/
 .faq h1{
 border-bottom: 1px solid rgba(172, 162, 162, 0.6);
