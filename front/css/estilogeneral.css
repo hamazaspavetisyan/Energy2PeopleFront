@@ -38,7 +38,21 @@ background: #09c519 url('../img/grass1.jpg');
     
     color:#FFF;
     text-shadow: 0.1em 0.1em 0.05em #333;
+    
+  
+    
 }
+#logo h3 {
+    margin-top: 45px;
+float: left;
+
+
+}
+#logo img {
+    margin-top: 10px;
+float: left;
+}
+
 #menu{
     float:right;
 }
