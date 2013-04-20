@@ -68,6 +68,11 @@ min-height: 300px;
     max-width: 100%;
 }
 
+/** Accordion **/
+#accordion{
+    margin-bottom: 25px;
+}
+
 /** FAQ PAGE **/
 .faq h1{
 border-bottom: 1px solid rgba(172, 162, 162, 0.6);
