@@ -77,3 +77,23 @@ min-height: 300px;
 .faq h1{
 border-bottom: 1px solid rgba(172, 162, 162, 0.6);
 }
+
+/* MEDIA QUERIES */
+/* mobile devices */
+@media (max-width: 480px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 17px;
+    }
+}
+
+/*  landscape  */
+@media (min-width: 600px) and (max-width: 979px) {
+    
+}
+/* Web */
+@media (min-width: 980px) {
+
+}
