@@ -1,21 +1,32 @@
+#encabezado{
+    
+    background-color: #3dc9f7;
+    padding: 5px;
+    -moz-border-radius: 10px 10px / 10px 10px;
+    border-radius: 10px 10px / 10px 10px;
+    font-size-adjust: inherit;
+}
+
 
 
 body{
 font-family: verdana, arial;
-background-color: #F2F2F2;
+background-color: #33CCFF;
+    padding: 5px;
+    -moz-border-radius: 10px 10px / 10px 10px;
+    border-radius: 10px 10px / 10px 10px;
+    font-size-adjust: inherit;
 }
 
 
 #general{
 
 }
-#encabezado{
-    height: 90px;
-    padding: 5px;
-    
-}
+
+
 #logo{
-    color:#FF4000;
+    
+    color:#FFF;
     text-shadow: 0.1em 0.1em 0.05em #333;
 }
 #menu{
@@ -27,7 +38,7 @@ background-color: #F2F2F2;
     float: right;
 }
 #menu ul li a{
-    height: 47px;
+    
      -webkit-transition: background-color .25s linear;
      -moz-transition: background-color .25s linear;
        -o-transition: background-color .25s linear;
@@ -38,8 +49,27 @@ background-color: #F2F2F2;
 }
 
 
+#cuerpo{
+font-family: verdana, arial;
+background-color: #3dc9f7;
+    -moz-border-radius: 10px 10px / 10px 10px;
+    border-radius: 10px 10px / 10px 10px;
+    font-size-adjust: inherit;
+    margin-top: 10px;
+    
+ 
+
+}
 
 
+
+
+
+#derecha{
+color: #FFF;
+ text-shadow: 0.1em 0.1em 0.05em #333;
+
+}
 
 #izquierda
 {
@@ -49,13 +79,11 @@ min-height: 300px;
 
 }
 
-
-#derecha{
-
-
-}
-#izquierda h3
-
+#izquierda h1{
+    
+font-size: 25px;  
+color: #FFF;
+text-shadow: 0.1em 0.1em 0.05em #333;
 
 }
 
@@ -67,6 +95,7 @@ min-height: 300px;
 #map3d{
     max-width: 100%;
 }
+
 
 /** Accordion **/
 #accordion{
@@ -97,3 +126,12 @@ border-bottom: 1px solid rgba(172, 162, 162, 0.6);
 @media (min-width: 980px) {
 
 }
+
+#boton1{
+    
+font-size: 25px;  
+color: #FFF;
+text-shadow: 0.1em 0.1em 0.05em #333;
+
+}
+
