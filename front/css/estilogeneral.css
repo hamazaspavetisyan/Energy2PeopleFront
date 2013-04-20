@@ -2,29 +2,40 @@ body{
 font-family: verdana, arial;
 background-color: #F2F2F2;
 }
+
 #general{
-
-
-
 
 }
 #encabezado{
-
-height: 90px;
-
-padding: 5px;
-
+    height: 90px;
+    padding: 5px;
+    
 }
 #logo{
-color:#FF4000;
-text-shadow: 0.1em 0.1em 0.05em #333;
+    color:#FF4000;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+#menu{
+    margin-top:20px;
+    float:right;
+}
+#menu ul{
+    margin: 0;  
+}
+#menu ul li a{
+    height: 47px;
+     -webkit-transition: background-color .25s linear;
+     -moz-transition: background-color .25s linear;
+       -o-transition: background-color .25s linear;
+          transition: background-color .25s linear;
+}
+#menu ul li a:hover{
 
 }
-#menu
-{
-margin-top:20px;
-float:right;
-}
+
+
+
+
 
 #izquierda
 {
