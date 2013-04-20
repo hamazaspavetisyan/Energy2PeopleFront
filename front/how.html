@@ -3,15 +3,17 @@
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <title>Renewable Energy Explorer</title>
-
-        <link rel="stylesheet" href="css/estilogeneral.css" >
+        <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+        
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" /> <!--Remote -> Local -->
         <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script> <!--Remote -> Local -->
-
+        
+        <link rel="stylesheet" href="css/estilogeneral.css" >
+        
         <!-- GOOGLE EARTH -->
         <script src="http://www.google.com/jsapi?key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
         <script>
@@ -36,81 +38,14 @@
                 <li><a href="../front/index.html">Home</a></li>             
                 <li class="active" style="width:150px"><a href="../front/how.html">How does it work?</a></li>
                 <li><a href="../front/FAQ.html">FAQ</a></li>
-                <li><a href="../front/developer.html">Developer</a></li>
+                <li><a href="../front/developer.html">Team</a></li>
             </div>
         </div>
         <div id="cuerpo" class="row">
 
-            <div id="izquierda" class="span4">
-              
-               <h3> Meteo-BI Form </h3>
-                <div id="accordion">
-                            <h3> Yearly </h3>
-                            <div class = "row">
-                              <div id = "yearSelection" class = "span4">
-                                <div class = "row">
-                                    <select id = "fromYear">
-                                      <option value="0">-----</option>
-                                    </select>
-                                    <select id = "toYear">
-                                      <option value="0">-----</option>
-                                    </select>
-                              </div>
-                            </div>
-                          </div>
-                            <h3>Monthly</h3>
-                            <div class="row"> 
-                              <div id = "monthSelection" class="span4">
-                                <div class = "row">
-                                  <select id = "fromMonth">
-                                    <option value="0">-----</option>
-                                  </select>
-                                </div>
-                                <div class = "row">
-                                  <select id = "toMonth"> 
-                                    <option value="0">-----</option>
-                                  </select>
-                                </div>
-                              </div>
-                          </div>
-                          <h3>Dayly</h3>
-                        <div class = "row">
-                          <div id = "daySelection" class = "span4">
-                           <input type="text" id="datepickerFrom"/></p>
-                            <input type="text" id="datepickerTo"/></p>
-                          </div>
-                            </div>
-                            <h3>Measure</h3>
-                            <div class = "row">
-                              <div id = "measureSelection" class = "span4">
-                                <select id="measureSelect">
-                                  <option value="1">Horizontal Solar Radiation</option>
-                                  <option value="2">Dew Frost</option>
-                                  <option value="3">Relative Humidity</option>
-                                  <option value="4">Wind Speed</option>
-                                  <option value="5">Precipiation</option>
-                                </select>
-                              </div>
-                            </div>
-                            <h3> Aggregator </h3>
-                            <div id = "slicer" class = "span4">
-                              <span id="choice">
-                                <div id = "row">
-                                  <input type="radio" id="totalRadio" name="repeat" checked="checked" value= "1" /><label for="totalRadio">Tot</label>
-                                  <input type="radio" id="avgRadio" name="repeat" value= "2"/><label for="avgRadio">Avg</label>
-                                  <input type="radio" id="maxRadio" name="repeat" value= "3"/><label for="maxRadio">Max</label>
-                                  <input type="radio" id="minRadio" name="repeat" value= "4"/><label for="minRadio">Min</label>
-                                </div>
-                              </span>
-                            </div>
-                </div>
-                  
-                <div>
-                    <p><a id = "getInfoButton" class="btn btn-primary btn-large">GET INFORMATION!!</a></p>
-                </div>
-            </div>
+           
             
-            <div id="derecha" class="span8">
+            <div id="derecha" class="span12">
                 <h1>How does it works?</h1>
                 resumen de como funciona la web
                 </div>

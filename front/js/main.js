@@ -55,7 +55,18 @@ window.addBindings = function(){
 
 }
 
+window.tabs = function (){
+    $('.tab').on('click', function(e){
+        e.preventDefault();
+        var id = $(this).attr('href');
+        $('.contenido').css('display', 'none');
+        $('#'+id).css('display', 'block');
+        $('.tab').removeClass('active');
+        $(this).addClass('active');
+        
+    });
 
+}
 
 var ge;
 var currentKmlObject = null;
@@ -77,7 +88,7 @@ var currentKmlObject = null;
 
 window.init = function() {
    addBindings();
-   
+   tabs();
    google.earth.createInstance('map3d', initCallback, failureCallback);
 }
 
