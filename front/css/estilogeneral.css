@@ -1,5 +1,6 @@
 #encabezado{
     
+    color: fff;
     background-color: #3dc9f7;
     padding: 5px;
     -moz-border-radius: 10px 10px / 10px 10px;
@@ -27,11 +28,9 @@ background: #09c519 url('../img/grass1.jpg');
 
 #logo{
     
-    color:#FFF;
-    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 #menu{
-    margin-top:20px;
+    margin-top:10px;
     float:right;
 }
 #menu ul{
