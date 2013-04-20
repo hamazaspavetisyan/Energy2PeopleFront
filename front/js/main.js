@@ -3,7 +3,7 @@ window.addBindings = function(){
     $( "#choice" ).buttonset();
     $("#getInfoButton").click(function() {
           
-         // getInformation('http://localhost:8080/kmlbi/biservlet?q=' + $("#measureSelect").val() + '&fYear=' + $("#fromYear option:selected").text() + '&tYear=' + $("#toYear option:selected").text() + '&fMonth=' + $("#fromMonth option:selected").val() + '&tMonth=' + $("#toMonth option:selected").val() +'&fDay=' + $("#datepickerFrom").val() + '&tDay=' + $("#datepickerTo").val() + '&aggr=' + $("#choice :radio:checked").val());
+          getInformation('http://localhost:8080/kmlbi/biservlet?q=' + $("#measureSelect").val() + '&fYear=' + $("#fromYear option:selected").text() + '&tYear=' + $("#toYear option:selected").text() + '&fMonth=' + $("#fromMonth option:selected").val() + '&tMonth=' + $("#toMonth option:selected").val() +'&fDay=' + $("#datepickerFrom").val() + '&tDay=' + $("#datepickerTo").val() + '&aggr=' + $("#choice :radio:checked").val());
 
           console.log($("#measureSelect").val());
           console.log($("#fromYear option:selected").val());
@@ -77,8 +77,8 @@ var currentKmlObject = null;
 
 window.init = function() {
    addBindings();
-   google.load("earth", "1");
-  google.earth.createInstance('map3d', initCallback, failureCallback);
+   
+   google.earth.createInstance('map3d', initCallback, failureCallback);
 }
 
 
