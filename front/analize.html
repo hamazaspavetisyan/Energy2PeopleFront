@@ -50,28 +50,55 @@
 
             <div id="izquierda" class="span4">
               
-               <h1> Parameters and Data </h1>
+               <h1> Analize </h1>
                 <div id="accordion">
-                            <h3> Solar Surface </h3>
-                             <div class = "">
-                              <input type="number" step="1" id="latitude"><h4>Meters</h4>
-                              </div>
 
-                            <h3>Efficiency</h3>
-                             <div class=""> 
-                              <input type="number" step="1" id="latitude">
-                             </div>
-                          
-                            <h3>Time</h3>
-                             <div class=""> 
-                              <input type="number" step="1" id="latitude"><h4>Hours</h4>
-                             </div>
-                          
-                            <h3>Number of generators</h3>
-                             <div class = "">
-                              <input type="number" step="1" id="latitude"><h4> Generators</h4>
-                             </div>
+                       <h3> Energy generated </h3>
+                            <div class = "">
+                               <h4> Solar Surface (m2)</h4>
+                               <input type="number" step="1" id="surface">
+                               
+                               <h4>Efficiency</h4>
+                               <input type="number" step="1" id="efficiency">
+                                
+                               <h4>Time (hrs.)</h4>
+                               <input type="number" step="1" id="time">
+                                
+                               <h4>Number of generators</h4>
+                               <input type="number" step="1" id="generators">
+                       
+                        </div>
 
+                    <h3> Implement cost </h3>
+                            <div class = "">
+
+
+                               <h4> Terrain price (currency/m2)</h4>
+                               <input type="number" step="1" id="surface"><h4>Meters</h4>
+                                
+                               <h4>Surface (m2)</h4>
+                               <input type="number" step="1" id="efficiency">
+                                
+                               <h4>Sun generator/Eolic generator instalation cost (currency) </h4>
+                               <input type="number" step="1" id="time"><h4>Hours</h4>
+                                
+                               <h4>Number of generators</h4>
+                               <input type="number" step="1" id="generators"><h4> Generators</h4>
+                       
+                        </div>
+
+                    <h3> Time to recover </h3>
+                            <div class = "">
+
+                            <h4> Total implement cost(currency) </h4>
+                            <input type="number" step="1" id="surface"><h4>Meters</h4>
+                            
+                            <h4>Production (currency/day)</h4>
+                            <input type="number" step="1" id="efficiency">
+                                                            
+                          
+                       
+                        </div>
                             
                 </div>
                 <br>
@@ -83,10 +110,10 @@
             </div>
             
             <div id="derecha" class="span8">
-  
+
+                <h1>Renewable Energy Analizer</h1>
                 <br>
-                <br>
-                <a class="tab active" href="energy">Energy generated</a>
+               <!-- <a class="tab active" href="energy">Energy generated</a>
                 <a class="tab" href="cost">Inplement cost</a>
                 <a class="tab" href="time">Time to recover</a>
                 
@@ -99,9 +126,10 @@
                 </div>
                 <div id="cost" class="contenido" style="display: none">
                    <h3> Cost to implement </h3>
-                </div>
-                <div id="time" class="contenido" style="display: none">
-                   <h3> Time to recover the investment </h3>
+                </div>-->
+
+                <div id="resultado" class="contenido">
+                   <h3> Results </h3>
 
 
 

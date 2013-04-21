@@ -145,9 +145,14 @@ color: #FFF;
 }
 
 #derecha persona {
-
+ display: block;
  color: #FFF;
 
+}
+#derecha ol {
+-moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
 }
 
 .persona {
@@ -196,6 +201,8 @@ padding: 10px;
 {
 
 }
+
+
 
 #video {
     
