@@ -27,31 +27,31 @@ window.addBindings = function(){
         $( "#accordion" ).accordion();
       });
 
-    $("<option value='1'> January </option>").appendTo("#fromMonth");
-    $("<option value='2'> February </option>").appendTo("#fromMonth");
-    $("<option value='3'> March </option>").appendTo("#fromMonth");
-    $("<option value='4'> April </option>").appendTo("#fromMonth");
-    $("<option value='5'> May </option>").appendTo("#fromMonth");
-    $("<option value='6'> June </option>").appendTo("#fromMonth");
-    $("<option value='7'> July </option>").appendTo("#fromMonth");
-    $("<option value='8'> August </option>").appendTo("#fromMonth");
-    $("<option value='9'> September </option>").appendTo("#fromMonth");
-    $("<option value='10'> October </option>").appendTo("#fromMonth");
-    $("<option value='11'> November </option>").appendTo("#fromMonth");
-    $("<option value='12'> December </option>").appendTo("#fromMonth");
+    $("<option value='1'>January</option>").appendTo("#fromMonth");
+    $("<option value='2'>February</option>").appendTo("#fromMonth");
+    $("<option value='3'>March</option>").appendTo("#fromMonth");
+    $("<option value='4'>April</option>").appendTo("#fromMonth");
+    $("<option value='5'>May</option>").appendTo("#fromMonth");
+    $("<option value='6'>June</option>").appendTo("#fromMonth");
+    $("<option value='7'>July</option>").appendTo("#fromMonth");
+    $("<option value='8'>August</option>").appendTo("#fromMonth");
+    $("<option value='9'>September</option>").appendTo("#fromMonth");
+    $("<option value='10'>October</option>").appendTo("#fromMonth");
+    $("<option value='11'>November</option>").appendTo("#fromMonth");
+    $("<option value='12'>December</option>").appendTo("#fromMonth");
 
-    $("<option value='1'> January </option>").appendTo("#toMonth");
-    $("<option value='2'> February </option>").appendTo("#toMonth");
-    $("<option value='3'> March </option>").appendTo("#toMonth");
-    $("<option value='4'> April </option>").appendTo("#toMonth");
-    $("<option value='5'> May </option>").appendTo("#toMonth");
-    $("<option value='6'> June </option>").appendTo("#toMonth");
-    $("<option value='7'> July </option>").appendTo("#toMonth");
-    $("<option value='8'> August </option>").appendTo("#toMonth");
-    $("<option value='9'> September </option>").appendTo("#toMonth");
-    $("<option value='10'> October </option>").appendTo("#toMonth");
-    $("<option value='11'> November </option>").appendTo("#toMonth");
-    $("<option value='12'> December </option>").appendTo("#toMonth");
+    $("<option value='1'>January</option>").appendTo("#toMonth");
+    $("<option value='2'>February</option>").appendTo("#toMonth");
+    $("<option value='3'>March</option>").appendTo("#toMonth");
+    $("<option value='4'>April</option>").appendTo("#toMonth");
+    $("<option value='5'>May</option>").appendTo("#toMonth");
+    $("<option value='6'>June</option>").appendTo("#toMonth");
+    $("<option value='7'>July</option>").appendTo("#toMonth");
+    $("<option value='8'>August</option>").appendTo("#toMonth");
+    $("<option value='9'>September</option>").appendTo("#toMonth");
+    $("<option value='10'>October</option>").appendTo("#toMonth");
+    $("<option value='11'>November</option>").appendTo("#toMonth");
+    $("<option value='12'>December</option>").appendTo("#toMonth");
 
 }
 
@@ -67,7 +67,6 @@ window.tabs = function (){
     });
 
 }
-
 
 var ge;
 var currentKmlObject = null;
@@ -120,6 +119,4 @@ function failureCallback(errorCode) {
 
 $(document).ready(function(){
     init();
-    $("#measureSelect").change(function() {
-      console.log($("#measureSelect").val());
-});});
+});
