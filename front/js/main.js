@@ -1,10 +1,12 @@
-﻿var validate;
+﻿var validateYear = false;
+var validateMonth = true;
+var validateDay = true;
 
 window.addBindings = function(){
     $( "#choice" ).buttonset();
     $("#getInfoButton").click(function() {
 
-      if (validate) {
+      if (validateYear && validateMonth && validateDay) {
           
           getInformation('http://localhost:8080/kmlbi/biservlet?q=' + $("#measureSelect").val() + '&fYear=' + $("#fromYear option:selected").text() + '&tYear=' + $("#toYear option:selected").text() + '&fMonth=' + $("#fromMonth option:selected").val() + '&tMonth=' + $("#toMonth option:selected").val() +'&fDay=' + $("#datepickerFrom").val() + '&tDay=' + $("#datepickerTo").val() + '&aggr=' + $("#choice :radio:checked").val());
 
@@ -209,32 +211,34 @@ $(function(){
   $("#fromYear").change(function() {
     auxFromYear = parseInt($("#fromYear option:selected").text());
     $("#saveYears").html("(" + auxFromYear + "-" + auxToYear + ")");
-    validar(auxFromYear, auxToYear);
+    validar(auxFromYear, auxToYear, 1);
   });
   $("#toYear").change(function() {
     auxToYear = parseInt($("#toYear option:selected").text());
     $("#saveYears").html("(" + auxFromYear + "-" + auxToYear + ")");
-    validar(auxFromYear, auxToYear);
+    validar(auxFromYear, auxToYear, 1);
   });
 
   $("#fromMonth").change(function() {
     auxFromMonth = ($("#fromMonth option:selected").text());
     $("#saveMonths").html("(" + auxFromMonth + "-" + auxToMonth + ")");
-    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val());
+    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val(), 2);
   });
   $("#toMonth").change(function() {
     auxToMonth = ($("#toMonth option:selected").text());
     $("#saveMonths").html("(" + auxFromMonth + "-" + auxToMonth + ")");
-    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val());
+    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val(), 2);
   });
 
   $("#datepickerFrom").change(function() {
     auxFromDay = ($("#datepickerFrom").val());
     $("#saveDays").html("(" + auxFromDay + "-" + auxToDay + ")");
+    validar(date2int(auxFromDay), date2int(auxToDay), 3);
   });
   $("#datepickerTo").change(function() {
     auxToDay = ($("#datepickerTo").val());
     $("#saveDays").html("(" + auxFromDay + "-" + auxToDay + ")");
+    validar(date2int(auxFromDay), date2int(auxToDay), 3);
   });
 
   $("#measureSelection").change(function() {
@@ -263,9 +267,32 @@ $(function(){
   });
 });
 
-function validar(from, to) {
-  if ((to-from)<0)
-    validate = false;
-  else
-    validate = true;
+function validar(from, to, type) {
+  switch (type) {
+    case 1:
+    if ((to-from)<0)
+      validateYear = false;
+    else
+      validateYear = true;
+    break;
+    case 2:
+    if ((to-from)<0)
+      validateMonth = false;
+    else
+      validateMonth = true;
+    break;
+    case 3:
+    if ((to-from)<0)
+      validateDay = false;
+    else
+      validateDay = true;
+    break;
+  }
+}
+
+function date2int(date) {
+  if (date != undefined) {
+    var n=date.split("/");
+    return parseInt(n[0])*12 + parseInt(n[1]) + parseInt(n[2])*365;
+  }
 }
