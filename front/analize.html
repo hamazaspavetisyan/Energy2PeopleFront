@@ -57,52 +57,33 @@
                             <div class = "">
                                <h4> Solar Surface (m2)</h4>
                                <input type="number" step="1" id="surface">
-                               
-                               <h4>Efficiency</h4>
-                               <input type="number" step="1" id="efficiency">
-                                
-                               <h4>Time (hrs.)</h4>
-                               <input type="number" step="1" id="time">
-                                
-                               <h4>Number of generators</h4>
+
+                                <h4>Number of generators</h4>
                                <input type="number" step="1" id="generators">
+
+                                 <h4>Latitude</h4>
+                               <input type="number" step="1" id="generators">
+
+                                 <h4>Longitude</h4>
+                               <input type="number" step="1" id="generators">
+                               
+                               <h4>Instalation level</h4>
+                               <select id="efficiency">
+                                <option value="0">High cost</option>
+                                <option value="1">Medium cost</option>
+                                <option value="2">Low cost</option>
+                                </select>
+                                
+                               
+                               
                        
                         </div>
 
-                    <h3> Implement cost </h3>
-                            <div class = "">
-
-
-                               <h4> Terrain price (currency/m2)</h4>
-                               <input type="number" step="1" id="surface"><h4>Meters</h4>
-                                
-                               <h4>Surface (m2)</h4>
-                               <input type="number" step="1" id="efficiency">
-                                
-                               <h4>Sun generator/Eolic generator instalation cost (currency) </h4>
-                               <input type="number" step="1" id="time"><h4>Hours</h4>
-                                
-                               <h4>Number of generators</h4>
-                               <input type="number" step="1" id="generators"><h4> Generators</h4>
-                       
-                        </div>
-
-                    <h3> Time to recover </h3>
-                            <div class = "">
-
-                            <h4> Total implement cost(currency) </h4>
-                            <input type="number" step="1" id="surface"><h4>Meters</h4>
-                            
-                            <h4>Production (currency/day)</h4>
-                            <input type="number" step="1" id="efficiency">
-                                                            
-                          
-                       
-                        </div>
+                    
                             
                 </div>
                 <br>
-                <p><a id = "getInfoButton" class="boton1">Calculate</a></p>
+                <p><a id = "getAnalizeButton" class="boton1">Calculate</a></p>
                 <br>
                 <br>
 
@@ -112,7 +93,7 @@
             <div id="derecha" class="span8">
 
                 <h1>Renewable Energy Analizer</h1>
-                <br>
+
                <!-- <a class="tab active" href="energy">Energy generated</a>
                 <a class="tab" href="cost">Inplement cost</a>
                 <a class="tab" href="time">Time to recover</a>
@@ -130,7 +111,13 @@
 
                 <div id="resultado" class="contenido">
                    <h3> Results </h3>
+                    <h4> Generated energy (kw/h): </h4>
+                    <h4> Home equivalent (homes): </h4>
+                    <h4> Monetary equivalent (euro/h): </h4>
+                    <h4> Facility cost (euro): </h4>
+                    <h4> Time to recover the invercion (days): </h4>
 
+                   
 
 
                 </div>

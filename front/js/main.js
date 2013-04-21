@@ -110,8 +110,8 @@ function initCallback(instance) {
   ge.getNavigationControl().setVisibility(ge.VISIBILITY_AUTO);
 
   // add some layers
-  ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
-  ge.getLayerRoot().enableLayerById(ge.LAYER_ROADS, true);
+  //ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
+  //ge.getLayerRoot().enableLayerById(ge.LAYER_ROADS, true);
 
 }
 
