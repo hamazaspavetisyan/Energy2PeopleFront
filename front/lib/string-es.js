@@ -19,7 +19,7 @@ var webstr = {
 	"Dew_Frost":"Rocío, escarcha",
 	"Relative_Humidity":"Humedad relativa",
 	"Wind_Speed":"Velocidad del viento",
-	"Precipitation":"PPrcipitaciones",
+	"Precipitation":"Precipitaciones",
 	"Temperature":"Temperatura",
 	"Aggregator":"Agregado",
 	"Calculate":"Calcular"

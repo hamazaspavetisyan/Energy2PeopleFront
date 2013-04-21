@@ -65,4 +65,10 @@ $(function() {
     $('.From').text(webstr.From);
     $('.To').text(webstr.To);
     $('#getInfoButton').text(webstr.Calculate);
+    $('#Horizontal_Solar_Radiation').text(webstr.Horizontal_Solar_Radiation);
+    $('#Dew_Frost').text(webstr.Dew_Frost);
+    $('#Relative_Humidity').text(webstr.Relative_Humidity);
+    $('#Wind_Speed').text(webstr.Wind_Speed);
+    $('#Precipitation').text(webstr.Precipitation);
+    $('#Temperature').text(webstr.Temperature);
     });
