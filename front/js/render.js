@@ -1,5 +1,5 @@
 $(function() {
 	var howto = ''+webstr.how;
-	$('#how').text(towto);
-	$('#Measure').text("aaaa"); 
+	//$('#how').text(towto);
+	//$('#Measure').text("aaaa"); 
 	});
