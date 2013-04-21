@@ -63,14 +63,6 @@ window.tabs = function (){
         $('#'+id).css('display', 'block');
         $('.tab').removeClass('active');
         $(this).addClass('active');
- 
-        if(id == 'mapa'){
-            $('#getInfoButton').css('display','block');
-            $('#drawButton').css('display','none');
-        }else{
-            $('#getInfoButton').css('display','none');
-            $('#drawButton').css('display','block');
-        }
         
     });
 
