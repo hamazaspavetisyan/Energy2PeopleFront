@@ -51,12 +51,18 @@ $(function() {
     $('#Analize').text(webstr.Analize); 
     $('#How').text(webstr.How);
     $('#FAQ').text(webstr.FAQ); 
-    $('#Team').text(webstr.Team); 
-    /*$('#how').text(webstr.how); 
-    $('#how').text(webstr.how); 
-    $('#how').text(webstr.how); 
-    $('#how').text(webstr.how); 
-    $('#how').text(webstr.how); 
-    $('#how').text(webstr.how); 
-    $('#how').text(webstr.how); */
+    $('#Team').text(webstr.Team);
+    $('#Meteo-BI_Form').text(webstr.Meteo_BI_Form);
+    $('#Renewable_Energy_Explorer').text(webstr.Renewable_Energy_Explorer);
+    $('#Map').text(webstr.Map);
+    $('#Graphs').text(webstr.Graphs);
+    $('#Yearly').text(webstr.Yearly);
+    $('#Monthly').text(webstr.Monthly);
+    $('#Daily').text(webstr.Daily);
+    $('#Measure').text(webstr.Measure);
+    $('#Select_a_measure').text(webstr.Select_a_measure);
+    $('#Aggregator').text(webstr.Aggregator);
+    $('.From').text(webstr.From);
+    $('.To').text(webstr.To);
+    $('#getInfoButton').text(webstr.Calculate);
     });
