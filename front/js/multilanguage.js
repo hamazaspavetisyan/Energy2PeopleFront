@@ -24,9 +24,14 @@ var loadLocalizedString;
     filename = 'lib/string-'+lang+'.js';
 
     console.log("filename= "+ filename)
+
     try {
         $.ajaxSetup({async: false});
-        $.getScript(filename);//We don't use the async callback, because we need the translation in the next method
+        $.getScript(filename).done(function(script, textStatus) {
+            console.log("archivo de idioma cargado");
+        }).fail(function(jqxhr, settings, exception) {
+            console.log("error al cargar");
+        });//We don't use the async callback, because we need the translation in the next method
         $.ajaxSetup({async: true});
 
     } catch (e) {
@@ -34,3 +39,24 @@ var loadLocalizedString;
     }
 
 })();
+
+// Carga todas las string del archivo de idiomas cargado
+
+$(function() {
+    if (!webstr){
+        console.log("Error, archivo de idioma no cargado");
+    }
+    var howto = ''+webstr.how;
+    console.log(webstr)
+    $('#Analize').text(webstr.Analize); 
+    $('#How').text(webstr.How);
+    $('#FAQ').text(webstr.FAQ); 
+    $('#Team').text(webstr.Team); 
+    /*$('#how').text(webstr.how); 
+    $('#how').text(webstr.how); 
+    $('#how').text(webstr.how); 
+    $('#how').text(webstr.how); 
+    $('#how').text(webstr.how); 
+    $('#how').text(webstr.how); 
+    $('#how').text(webstr.how); */
+    });
