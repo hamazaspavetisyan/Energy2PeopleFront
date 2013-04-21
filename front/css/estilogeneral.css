@@ -144,10 +144,14 @@ color: #FFF;
   
 }
 
-#derecha persona {
+#derecha .persona {
  display: block;
  color: #FFF;
 
+}
+.persona img{
+    width: 75px;
+    height: 75px;
 }
 #derecha ol {
 -moz-column-count: 2;
