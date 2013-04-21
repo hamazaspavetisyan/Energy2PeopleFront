@@ -2,7 +2,6 @@
   <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Renewable Energy Explorer</title>
-        
 
         <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -29,16 +28,16 @@
     <div class="container" id = "general">
         <div id="encabezado" class="row">
 
-            <div class= "span4" id="icono">
+            <div class= "span4" id="logo">
                 
                 <h3>Energy</h3><img src="img/monigote.png"></img><h3>People</h3>
                 
                 
             </div>
 
-            <div id="menu" >
+            <div id="menu" class="span8">
                 <ul class="nav nav-pills">
-                <li class="active" style="width:200px"><a href="#">Home</a></li>
+                <li class="active" style="width:150px"><a href="#">Home</a></li>
                 <li class="dropdown" id="menu1">
                 <li><a href="how.html">How does it work?</a></li>
                 <li><a href="FAQ.html">FAQ</a></li>
@@ -55,10 +54,10 @@
                             <div class = "">
                               <div id = "yearSelection" class = "">
                                 <div class = "">
-                                    <h4 style="font-size: 12px;">From</h4><select id = "fromYear">
+                                    <select id = "fromYear">
                                       <option value="0">-----</option>
                                     </select>
-                                    <h4 style="font-size: 12px;">To</h4><select id = "toYear">
+                                    <select id = "toYear">
                                       <option value="0">-----</option>
                                     </select>
                               </div>
@@ -68,30 +67,28 @@
                             <div class=""> 
                               <div id = "monthSelection" class="">
                                 <div class = "">
-                                   <h4>From</h4><select id = "fromMonth">
+                                  <select id = "fromMonth">
                                     <option value="0">-----</option>
                                   </select>
                                 </div>
                                 <div class = "">
-                                   <h4>To</h4><select id = "toMonth"> 
+                                  <select id = "toMonth"> 
                                     <option value="0">-----</option>
                                   </select>
                                 </div>
                               </div>
                           </div>
-                          <h3>Daily</h3>
+                          <h3>Dayly</h3>
                         <div class = "">
                           <div id = "daySelection" class = "">
-                            <h4>From</h4><input type="text" id="datepickerFrom"/></p>
-                             <h4>To</h4><input type="text" id="datepickerTo"/></p>
+                           <input type="text" id="datepickerFrom"/></p>
+                            <input type="text" id="datepickerTo"/></p>
                           </div>
                             </div>
                             <h3>Measure</h3>
                             <div class = "">
                               <div id = "measureSelection" class = "">
-                                             <h4>Select a measure</h4>
                                 <select id="measureSelect">
-                       
                                   <option value="1">Horizontal Solar Radiation</option>
                                   <option value="2">Dew Frost</option>
                                   <option value="3">Relative Humidity</option>
@@ -113,14 +110,16 @@
                             </div>
                 </div>
                 <br>
-                <p><a id = "getInfoButton" class="boton1">Calculate</a></p>
+                  
+                <div>
 
-                
+                    <p><a id = "getInfoButton" class="boton1">Calculate</a></p>
+
+                </div>
             </div>
             
             <div id="derecha" class="span8">
                 <h1>Renewable Energy Explorer</h1>
-                <br><
                 <a class="tab active" href="mapa">Mapa</a>
                 <a class="tab" href="tablas">Tablas</a>
                 <a class="tab" href="graficas">Graficas</a>
@@ -129,7 +128,6 @@
                 <div id="tablas" class="contenido" style="display: none" > </div>
                 <div id="graficas" class="contenido" style="display: none"> </div>
             </div>
-        </div>
   </body>
 </html>
 <script>
