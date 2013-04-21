@@ -275,6 +275,19 @@ margin-top: 10px;
 font-size: 15px;
 }
 
+/* PICKER */
+#get{
+    height: 30px;
+background-color: rgba(58, 157, 213, 1);
+width: 157px;
+margin-bottom: 10px;
+border-radius: 10px;
+padding-top: 10px;
+padding-left: 26px;
+color: white;
+ cursor: hand;
+}
+
 /* MEDIA QUERIES */
 /* mobile devices */
 @media (max-width: 480px) {
