@@ -144,6 +144,16 @@ color: #FFF;
   
 }
 
+#derecha persona {
+
+ color: #FFF;
+
+}
+
+.persona {
+  vertical-align: bottom;
+}
+
 #izquierda
 {
 
@@ -274,5 +284,11 @@ font-size: 15px;
 
 }
 
+
+/*Formularios*/
+form input[type='number']{
+    padding: 0px;
+    margin: 0px;
+}
 
 

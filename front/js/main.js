@@ -68,6 +68,7 @@ window.tabs = function (){
 
 }
 
+
 var ge;
 var currentKmlObject = null;
 

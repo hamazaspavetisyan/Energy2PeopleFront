@@ -40,6 +40,7 @@
                 <ul class="nav nav-pills">
                 <li class="active" style="width:200px"><a href="#">Home</a></li>
                 <li class="dropdown" id="menu1">
+                <li><a href="analize.html">Analize</a></li>
                 <li><a href="how.html">How does it work?</a></li>
                 <li><a href="FAQ.html">FAQ</a></li>
                 <li><a href="developer.html">Team</a></li>
@@ -82,10 +83,19 @@
                           <h3>Daily</h3>
                         <div class = "">
                           <div id = "daySelection" class = "">
-                            <h4>From</h4><input type="text" id="datepickerFrom"/></p>
-                             <h4>To</h4><input type="text" id="datepickerTo"/></p>
+                            <h4>From</h4><input type="text" id="datepickerFrom"/>
+                             <h4>To</h4><input type="text" id="datepickerTo"/>
                           </div>
                             </div>
+                            <h3>Coordinates</h3>
+                            <div class = "">
+                              <div id = "coordinateSelection" class = "">
+                              <h4>Choose a latitude</h4><input type="number" step="1" id="latitude">
+                                  <h4>Choose a longitude</h4><input type="number" id="longitude">
+                              
+                              </div>
+                            </div>
+
                             <h3>Measure</h3>
                             <div class = "">
                               <div id = "measureSelection" class = "">
@@ -97,9 +107,11 @@
                                   <option value="3">Relative Humidity</option>
                                   <option value="4">Wind Speed</option>
                                   <option value="5">Precipiation</option>
+                                  <option value="6">Temperature</option>
                                 </select>
                               </div>
                             </div>
+
                             <h3> Aggregator </h3>
                             <div id = "slicer" class = "">
                               <span id="choice">
@@ -120,14 +132,24 @@
             
             <div id="derecha" class="span8">
                 <h1>Renewable Energy Explorer</h1>
-                <br><
+                <br>
                 <a class="tab active" href="mapa">Mapa</a>
                 <a class="tab" href="tablas">Tablas</a>
                 <a class="tab" href="graficas">Graficas</a>
-                <a class="tab" href="Analisis">Analisis</a>
-                <div id="mapa" class="contenido"><div id = "map3d" style="width: 700px; height: 550px;"></div> </div>
-                <div id="tablas" class="contenido" style="display: none" > </div>
-                <div id="graficas" class="contenido" style="display: none"> </div>
+                <a class="tab" href="analisis">An&aacute;lisis</a>
+                <div id="mapa" class="contenido" ><div id = "map3d" style="width: 700px; height: 550px;"></div> </div>
+                <div id="tablas" class="contenido"  style="display: none">
+                  <h3> Tablas </h3>
+                </div>
+                <div id="graficas" class="contenido" style="display: none">
+                   <h3> Gr&aacute;ficas </h3>
+                </div>
+                <div id="analisis" class="contenido" style="display: none">
+                   <h3> An&aacute;lisis </h3>
+
+
+
+                </div>
             </div>
         </div>
   </body>
