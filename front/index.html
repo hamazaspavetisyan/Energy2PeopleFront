@@ -23,6 +23,11 @@
         <!-- MAIN JS FILE-->
         <script type="text/javascript" src="js/main.js"></script>
 
+        <!-- Multilanguage support -->
+        <script type="text/javascript" src="js/multilanguage.js"></script>
+
+        <script type="text/javascript" src="js/render.js"></script>
+
   </head>
   
   <body >
@@ -41,7 +46,7 @@
                 <li class="active" style="width:200px"><a href="#">Home</a></li>
                 <li class="dropdown" id="menu1">
                 <li><a href="analize.html">Analize</a></li>
-                <li><a href="how.html">How does it work?</a></li>
+                <li><a href="how.html" id="how">...</a></li>
                 <li><a href="FAQ.html">FAQ</a></li>
                 <li><a href="developer.html">Team</a></li>
             </div>
@@ -96,7 +101,7 @@
                               </div>
                             </div>-->
 
-                            <h3>Measure</h3>
+                            <h3 id="Measure">Measure</h3>
                             <div class = "">
                               <div id = "measureSelection" class = "">
                                              <h4>Select a measure</h4>
