@@ -11,6 +11,8 @@ $(function(){
 
   var auxMeasure;
 
+  var auxAggreg;
+
   $("#fromYear").change(function() {
     auxFromYear = parseInt($("#fromYear option:selected").text());
     $("#saveYears").html("(" + auxFromYear + "-" + auxToYear + ")");
@@ -39,7 +41,27 @@ $(function(){
   });
 
   $("#measureSelection").change(function() {
-    auxToDay = ($("#measureSelection option:selected").text());
-    $("#saveMeasure").html(auxMeasure);
+    auxMeasure = ($("#measureSelection option:selected").text());
+    $("#saveMeasure").html('(' + auxMeasure + ')');
+  });
+
+  $("input[name='repeat']").change(function() {
+    if(this.checked) {
+      switch (parseInt(this.value)) {
+        case 1:
+        auxAggreg = "Total";
+        break;
+        case 2:
+        auxAggreg = "Average";
+        break;
+        case 3:
+        auxAggreg = "Maximum";
+        break;
+        case 4:
+        auxAggreg = "Minimum";
+        break;
+      }
+      $("#saveAggreg").html('(' + auxAggreg + ')');
+    }
   });
 });

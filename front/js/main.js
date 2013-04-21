@@ -172,4 +172,8 @@ function failureCallback(errorCode) {
 
 $(document).ready(function(){
     init();
+    auxMeasure = ($("#measureSelection option:selected").text());
+    $("#saveMeasure").html('(' + auxMeasure + ')');
+
+    $("#saveAggreg").html('(Total)');
 });
