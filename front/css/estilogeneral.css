@@ -296,6 +296,10 @@ font-size: 15px;
 form input[type='number']{
     padding: 0px;
     margin: 0px;
+    height: 30px !important;
+}
+input{
+        height: 30px !important;
 }
 
 
