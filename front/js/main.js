@@ -88,20 +88,23 @@ var currentKmlObject = null;
   var map_picker; 
   
 window.pick = function(){
-    var mapOptions = {
-        zoom: 4,
-        center: new google.maps.LatLng(40.4445904, -3.697276800000054),
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    map = new google.maps.Map(document.getElementById('map_picker_map'),
-            mapOptions);
-    geocoder = new google.maps.Geocoder();
-    
-    $('#map_picker #get').on('click', function(e){
-        e.preventDefault();
-        codeAddress();
-           
-        });
+    if( $('#map_picker #get').length > 0){
+         var mapOptions = {
+            zoom: 4,
+            center: new google.maps.LatLng(40.4445904, -3.697276800000054),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('map_picker_map'),
+                mapOptions);
+        geocoder = new google.maps.Geocoder();
+        
+        $('#map_picker #get').on('click', function(e){
+            e.preventDefault();
+            codeAddress();
+               
+            });
+    }
+   
        
    
 }
