@@ -28,6 +28,9 @@
 
         <script type="text/javascript" src="js/render.js"></script>
 
+        <!-- VALIDATE FUNCTION JS FILE-->
+        <script type="text/javascript" src="js/validate.js"></script>
+
   </head>
   
   <body >
@@ -57,7 +60,7 @@
               
                <h1> Meteo-BI Form </h1>
                 <div id="accordion">
-                            <h3> Yearly </h3>
+                            <h3> Yearly <div id = "saveYears"></div></h3>
                             <div class = "">
                               <div id = "yearSelection" class = "">
                                 <div class = "">
@@ -70,7 +73,7 @@
                               </div>
                             </div>
                           </div>
-                            <h3>Monthly</h3>
+                            <h3>Monthly <div id = "saveMonths"></div></h3>
                             <div class=""> 
                               <div id = "monthSelection" class="">
                                 <div class = "">
@@ -85,7 +88,7 @@
                                 </div>
                               </div>
                           </div>
-                          <h3>Daily</h3>
+                          <h3>Daily <div id = "saveDays"></div></h3>
                         <div class = "">
                           <div id = "daySelection" class = "">
                             <h4>From</h4><input type="text" id="datepickerFrom"/>
@@ -101,7 +104,7 @@
                               </div>
                             </div>-->
 
-                            <h3 id="Measure">Measure</h3>
+                            <h3 id="Measure">Measure <div id = "saveMeasure"></div></h3>
                             <div class = "">
                               <div id = "measureSelection" class = "">
                                              <h4>Select a measure</h4>
@@ -117,7 +120,7 @@
                               </div>
                             </div>
 
-                            <h3> Aggregator </h3>
+                            <h3> Aggregator <div id = "saveAggreg"></div></h3>
                             <div id = "slicer" class = "">
                               <span id="choice">
                                 <div id = "row">
