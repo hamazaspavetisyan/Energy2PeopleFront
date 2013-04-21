@@ -84,11 +84,64 @@ var currentKmlObject = null;
     }
   }
 
+  var map_picker; 
+  
+window.pick = function(){
+    if( $('#map_picker #get').length > 0){
+         var mapOptions = {
+            zoom: 4,
+            center: new google.maps.LatLng(40.4445904, -3.697276800000054),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('map_picker_map'),
+                mapOptions);
+        geocoder = new google.maps.Geocoder();
+        google.maps.event.addListener(map, "click", function(event) {
+                var lat = event.latLng.lat();
+                var lng = event.latLng.lng();
+                $('#lat').val(lat);
+                $('#long').val(lng);
+               
+            });
+        $('#map_picker #get').on('click', function(e){
+            e.preventDefault();
+            codeAddress();
+               
+            });
+    }
+   
+       
+   
+}
 
+  
+
+  function codeAddress() {
+    //In this case it gets the address from an element on the page, but obviously you  could just pass it to the method instead
+    var address = document.getElementById("address").value;
+
+    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        //In this case it creates a marker, but you can get the lat and lng from the location.LatLng
+        map.setCenter(results[0].geometry.location);
+        $('#lat').val(results[0].geometry.location.jb);
+        $('#long').val(results[0].geometry.location.kb);
+            
+        var marker = new google.maps.Marker({
+            map: map, 
+            position: results[0].geometry.location
+        });
+      } else {
+        alert("Geocode was not successful for the following reason: " + status);
+      }
+    });
+  }
 
 window.init = function() {
    addBindings();
    tabs();
+   //picker coordinates
+   pick();
    google.earth.createInstance('map3d', initCallback, failureCallback);
 }
 

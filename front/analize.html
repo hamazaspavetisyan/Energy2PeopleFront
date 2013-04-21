@@ -16,6 +16,7 @@
         
 
         <!-- GOOGLE EARTH -->
+         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
         <script src="http://www.google.com/jsapi?key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
         <script>
         google.load("earth", "1");
@@ -60,14 +61,24 @@
 
                                 <h4>Number of generators</h4>
                                <input type="number" step="1" id="generators">
-
+                                <h4> Address </h4>
+                                <div id="map_picker" style=" width: 330px; ">
+                                    <div class="address"><input type="text" id="address"></input></div>
+                                    
+                                    <div id="get">
+                                        Get Coordinates
+                                    </div>
+                                    
+                                    <div id="map_picker_map" style="height: 290px; widht:290px"></div>
+                                </div>
+                                
                                  <h4>Latitude</h4>
-                               <input type="number" step="1" id="generators">
+                               <input type="number" step="1" id="lat">
 
                                  <h4>Longitude</h4>
-                               <input type="number" step="1" id="generators">
+                               <input type="number" step="1" id="long">
                                
-                               <h4>Instalation level</h4>
+                               <h4>Installation level</h4>
                                <select id="efficiency">
                                 <option value="0">High cost</option>
                                 <option value="1">Medium cost</option>
@@ -111,11 +122,11 @@
 
                 <div id="resultado" class="contenido">
                    <h3> Results </h3>
-                    <h4> Generated energy (kw/h): </h4>
+                    <h4> Generated energy (kWh): </h4>
                     <h4> Home equivalent (homes): </h4>
-                    <h4> Monetary equivalent (euro/h): </h4>
-                    <h4> Facility cost (euro): </h4>
-                    <h4> Time to recover the inversion (days): </h4>
+                    <h4> Monetary equivalent (dollar/day): </h4>
+                    <h4> Facility cost (dollar): </h4>
+                    <h4> Time to recover the inversion (years): </h4>
 
                    
 
@@ -123,6 +134,7 @@
                 </div>
             </div>
         </div>
+        
   </body>
 </html>
 <script>

@@ -144,10 +144,14 @@ color: #FFF;
   
 }
 
-#derecha persona {
+#derecha .persona {
  display: block;
  color: #FFF;
 
+}
+.persona img{
+    width: 75px;
+    height: 75px;
 }
 #derecha ol {
 -moz-column-count: 2;
@@ -271,6 +275,19 @@ margin-top: 10px;
 font-size: 15px;
 }
 
+/* PICKER */
+#get{
+    height: 30px;
+background-color: rgba(58, 157, 213, 1);
+width: 157px;
+margin-bottom: 10px;
+border-radius: 10px;
+padding-top: 10px;
+padding-left: 26px;
+color: white;
+ cursor: hand;
+}
+
 /* MEDIA QUERIES */
 /* mobile devices */
 @media (max-width: 480px) {
@@ -296,6 +313,10 @@ font-size: 15px;
 form input[type='number']{
     padding: 0px;
     margin: 0px;
+    height: 30px !important;
+}
+input{
+        height: 30px !important;
 }
 
 
