@@ -97,7 +97,13 @@ window.pick = function(){
         map = new google.maps.Map(document.getElementById('map_picker_map'),
                 mapOptions);
         geocoder = new google.maps.Geocoder();
-        
+        google.maps.event.addListener(map, "click", function(event) {
+                var lat = event.latLng.lat();
+                var lng = event.latLng.lng();
+                $('#lat').val(lat);
+                $('#long').val(lng);
+               
+            });
         $('#map_picker #get').on('click', function(e){
             e.preventDefault();
             codeAddress();
