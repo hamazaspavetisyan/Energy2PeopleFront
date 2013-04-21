@@ -1,7 +1,10 @@
-﻿
+﻿var validate;
+
 window.addBindings = function(){
     $( "#choice" ).buttonset();
     $("#getInfoButton").click(function() {
+
+      if (validate) {
           
           getInformation('http://localhost:8080/kmlbi/biservlet?q=' + $("#measureSelect").val() + '&fYear=' + $("#fromYear option:selected").text() + '&tYear=' + $("#toYear option:selected").text() + '&fMonth=' + $("#fromMonth option:selected").val() + '&tMonth=' + $("#toMonth option:selected").val() +'&fDay=' + $("#datepickerFrom").val() + '&tDay=' + $("#datepickerTo").val() + '&aggr=' + $("#choice :radio:checked").val());
 
@@ -11,6 +14,9 @@ window.addBindings = function(){
           console.log($("#datepickerFrom").val());
           console.log($("#datepickerTo").val());
           console.log($("#choice :radio:checked").val());
+      } else {
+        alert('Invalid');
+      }
     });
 
     var i;
@@ -52,7 +58,6 @@ window.addBindings = function(){
     $("<option value='10'>October</option>").appendTo("#toMonth");
     $("<option value='11'>November</option>").appendTo("#toMonth");
     $("<option value='12'>December</option>").appendTo("#toMonth");
-
 }
 
 window.tabs = function (){
@@ -180,8 +185,87 @@ function failureCallback(errorCode) {
 
 $(document).ready(function(){
     init();
-    auxMeasure = ($("#measureSelection option:selected").text());
-    $("#saveMeasure").html('(' + auxMeasure + ')');
-
+    $("#saveMeasure").html('(' + $("#measureSelection option:selected").text() + ')');
     $("#saveAggreg").html('(Total)');
 });
+
+// Validate
+$(function(){
+  var auxFromYear;
+  var auxToYear;
+
+  var auxFromMonth;
+  var auxToMonth;
+
+  var auxFromDay;
+  var auxToDay;
+
+  var auxMeasure;
+
+  var auxAggreg;
+
+  var validate = true;
+
+  $("#fromYear").change(function() {
+    auxFromYear = parseInt($("#fromYear option:selected").text());
+    $("#saveYears").html("(" + auxFromYear + "-" + auxToYear + ")");
+    validar(auxFromYear, auxToYear);
+  });
+  $("#toYear").change(function() {
+    auxToYear = parseInt($("#toYear option:selected").text());
+    $("#saveYears").html("(" + auxFromYear + "-" + auxToYear + ")");
+    validar(auxFromYear, auxToYear);
+  });
+
+  $("#fromMonth").change(function() {
+    auxFromMonth = ($("#fromMonth option:selected").text());
+    $("#saveMonths").html("(" + auxFromMonth + "-" + auxToMonth + ")");
+    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val());
+  });
+  $("#toMonth").change(function() {
+    auxToMonth = ($("#toMonth option:selected").text());
+    $("#saveMonths").html("(" + auxFromMonth + "-" + auxToMonth + ")");
+    validar($("#fromMonth option:selected").val(), $("#toMonth option:selected").val());
+  });
+
+  $("#datepickerFrom").change(function() {
+    auxFromDay = ($("#datepickerFrom").val());
+    $("#saveDays").html("(" + auxFromDay + "-" + auxToDay + ")");
+  });
+  $("#datepickerTo").change(function() {
+    auxToDay = ($("#datepickerTo").val());
+    $("#saveDays").html("(" + auxFromDay + "-" + auxToDay + ")");
+  });
+
+  $("#measureSelection").change(function() {
+    auxMeasure = ($("#measureSelection option:selected").text());
+    $("#saveMeasure").html('(' + auxMeasure + ')');
+  });
+
+  $("input[name='repeat']").change(function() {
+    if(this.checked) {
+      switch (parseInt(this.value)) {
+        case 1:
+        auxAggreg = "Total";
+        break;
+        case 2:
+        auxAggreg = "Average";
+        break;
+        case 3:
+        auxAggreg = "Maximum";
+        break;
+        case 4:
+        auxAggreg = "Minimum";
+        break;
+      }
+      $("#saveAggreg").html('(' + auxAggreg + ')');
+    }
+  });
+});
+
+function validar(from, to) {
+  if ((to-from)<0)
+    validate = false;
+  else
+    validate = true;
+}

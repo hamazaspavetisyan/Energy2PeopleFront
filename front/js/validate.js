@@ -64,4 +64,8 @@ $(function(){
       $("#saveAggreg").html('(' + auxAggreg + ')');
     }
   });
+
+  function validar() {
+    
+  }
 });
